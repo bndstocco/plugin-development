@@ -1,0 +1,1 @@
+2023/10/30 20:46:12 [error] 9480#1032: *245 directory index of "C:/Users/bnd/Local Sites/plugin-create/app/public/wp-content/cache/" is forbidden, client: 127.0.0.1, server: , request: "GET /wp-content/cache/ HTTP/1.0", host: "plugin-create.local"

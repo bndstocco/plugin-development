@@ -1,0 +1,33 @@
+[05-Nov-2023 23:02:11 UTC] PHP Parse error:  syntax error, unexpected token ")" in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\post-types\class.mv-slider-cpt.php on line 27
+[05-Nov-2023 23:04:50 UTC] PHP Fatal error:  Uncaught Error: Class "MV_Slider_Post_Type" not found in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\mv-slider.php:30
+Stack trace:
+#0 C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\mv-slider.php(61): MV_Slider->__construct()
+#1 C:\Users\bnd\Local Sites\plugin-create\app\public\wp-settings.php(462): include_once('C:\\Users\\bnd\\Lo...')
+#2 C:\Users\bnd\Local Sites\plugin-create\app\public\wp-config.php(105): require_once('C:\\Users\\bnd\\Lo...')
+#3 C:\Users\bnd\Local Sites\plugin-create\app\public\wp-load.php(50): require_once('C:\\Users\\bnd\\Lo...')
+#4 C:\Users\bnd\Local Sites\plugin-create\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\bnd\\Lo...')
+#5 {main}
+  thrown in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\mv-slider.php on line 30
+[05-Nov-2023 23:04:54 UTC] PHP Fatal error:  Uncaught Error: Class "MV_Slider_Post_Type" not found in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\mv-slider.php:30
+Stack trace:
+#0 C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\mv-slider.php(61): MV_Slider->__construct()
+#1 C:\Users\bnd\Local Sites\plugin-create\app\public\wp-settings.php(462): include_once('C:\\Users\\bnd\\Lo...')
+#2 C:\Users\bnd\Local Sites\plugin-create\app\public\wp-config.php(105): require_once('C:\\Users\\bnd\\Lo...')
+#3 C:\Users\bnd\Local Sites\plugin-create\app\public\wp-load.php(50): require_once('C:\\Users\\bnd\\Lo...')
+#4 C:\Users\bnd\Local Sites\plugin-create\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\bnd\\Lo...')
+#5 C:\Users\bnd\Local Sites\plugin-create\app\public\wp-admin\edit.php(10): require_once('C:\\Users\\bnd\\Lo...')
+#6 {main}
+  thrown in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\mv-slider.php on line 30
+[05-Nov-2023 23:04:54 UTC] PHP Fatal error:  Uncaught Error: Class "MV_Slider_Post_Type" not found in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\mv-slider.php:30
+Stack trace:
+#0 C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\mv-slider.php(61): MV_Slider->__construct()
+#1 C:\Users\bnd\Local Sites\plugin-create\app\public\wp-settings.php(462): include_once('C:\\Users\\bnd\\Lo...')
+#2 C:\Users\bnd\Local Sites\plugin-create\app\public\wp-config.php(105): require_once('C:\\Users\\bnd\\Lo...')
+#3 C:\Users\bnd\Local Sites\plugin-create\app\public\wp-load.php(50): require_once('C:\\Users\\bnd\\Lo...')
+#4 C:\Users\bnd\Local Sites\plugin-create\app\public\wp-blog-header.php(13): require_once('C:\\Users\\bnd\\Lo...')
+#5 C:\Users\bnd\Local Sites\plugin-create\app\public\index.php(17): require('C:\\Users\\bnd\\Lo...')
+#6 {main}
+  thrown in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\mv-slider.php on line 30
+[05-Nov-2023 23:09:33 UTC] PHP Parse error:  syntax error, unexpected token ")" in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\post-types\class.mv-slider-cpt.php on line 31
+[05-Nov-2023 23:34:39 UTC] PHP Parse error:  syntax error, unexpected string content "mv_slider" in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\post-types\class.mv-slider-cpt.php on line 46
+[06-Nov-2023 00:09:03 UTC] PHP Parse error:  syntax error, unexpected token "}" in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\post-types\class.mv-slider-cpt.php on line 59
