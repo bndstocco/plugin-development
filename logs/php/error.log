@@ -130,3 +130,18 @@ Stack trace:
 [07-Dec-2023 01:53:38 UTC] PHP Warning:  Undefined array key "posttype" in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\post-types\class.mv-slider-cpt.php on line 73
 [07-Dec-2023 01:53:46 UTC] PHP Warning:  Undefined array key "posttype" in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\post-types\class.mv-slider-cpt.php on line 73
 [07-Dec-2023 01:53:51 UTC] PHP Warning:  Undefined array key "posttype" in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\post-types\class.mv-slider-cpt.php on line 73
+[07-Dec-2023 23:31:49 UTC] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\post-types\class.mv-slider-cpt.php on line 58
+[07-Dec-2023 23:35:09 UTC] PHP Warning:  Undefined variable $rhis in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\post-types\class.mv-slider-cpt.php on line 16
+[07-Dec-2023 23:35:24 UTC] PHP Warning:  Undefined variable $rhis in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\post-types\class.mv-slider-cpt.php on line 16
+[07-Dec-2023 23:36:37 UTC] PHP Warning:  Undefined variable $rhis in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\post-types\class.mv-slider-cpt.php on line 16
+[07-Dec-2023 23:36:41 UTC] PHP Warning:  Undefined variable $rhis in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\post-types\class.mv-slider-cpt.php on line 16
+[07-Dec-2023 23:36:42 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, first array member is not a valid class name or object in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\bnd\Local Sites\plugin-create\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#1 C:\Users\bnd\Local Sites\plugin-create\app\public\wp-admin\includes\class-wp-list-table.php(1341): apply_filters('manage_edit-mv-...', Array)
+#2 C:\Users\bnd\Local Sites\plugin-create\app\public\wp-admin\includes\class-wp-list-table.php(1546): WP_List_Table->get_column_info()
+#3 C:\Users\bnd\Local Sites\plugin-create\app\public\wp-admin\includes\class-wp-list-table.php(1622): WP_List_Table->print_table_description()
+#4 C:\Users\bnd\Local Sites\plugin-create\app\public\wp-admin\edit.php(503): WP_List_Table->display()
+#5 {main}
+  thrown in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-includes\class-wp-hook.php on line 324
+[07-Dec-2023 23:36:42 UTC] PHP Warning:  Undefined variable $rhis in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\post-types\class.mv-slider-cpt.php on line 16

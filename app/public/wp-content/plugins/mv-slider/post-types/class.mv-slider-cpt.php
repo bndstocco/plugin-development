@@ -13,6 +13,7 @@ if (!class_exists('MV_Slider_Post_Type')) {
             add_action('save_post', array($this, 'save_post'), 10, 2);
             add_filter('manage_mv-slider_posts_columns', array($this, 'mv_slider_cpt_columns'));
             add_action('manage_mv-slider_posts_custom_column', array($this, 'mv_slider_custom_columns'), 10, 2);
+            add_filter('manage_edit-mv-slider_sortable_columns', array($this, 'mv_slider_sortable_columns'));
         }
         public function create_post_type()
         {
@@ -51,6 +52,24 @@ if (!class_exists('MV_Slider_Post_Type')) {
             $columns['mv_slider_link_url'] = esc_html__( 'Link URL', 'mv-slider');
             return $columns;
         }
+
+        public function mv_slider_custom_columns($column, $post_id){
+            switch( $column ){
+                case 'mv_slider_link_text':
+                    echo esc_html(get_post_meta($post_id, 'mv_slider_link_text', true));
+                    break;
+                    case 'mv_slider_link_url':
+                        echo esc_url(get_post_meta($post_id, 'mv_slider_link_url', true));
+                        break;
+            }
+        }
+
+
+        public function mv_slider_sortable_columns( $columns ){
+            $columns['mv_slider_link_text'] = 'mv_slider_link_text';
+            return $columns;
+        }
+
         public function add_meta_boxes()
         {
             add_meta_box(
