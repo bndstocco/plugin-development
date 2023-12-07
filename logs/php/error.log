@@ -31,3 +31,28 @@ Stack trace:
 [05-Nov-2023 23:09:33 UTC] PHP Parse error:  syntax error, unexpected token ")" in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\post-types\class.mv-slider-cpt.php on line 31
 [05-Nov-2023 23:34:39 UTC] PHP Parse error:  syntax error, unexpected string content "mv_slider" in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\post-types\class.mv-slider-cpt.php on line 46
 [06-Nov-2023 00:09:03 UTC] PHP Parse error:  syntax error, unexpected token "}" in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\post-types\class.mv-slider-cpt.php on line 59
+[06-Dec-2023 23:57:32 UTC] PHP Parse error:  syntax error, unexpected token ",", expecting "]" in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\post-types\class.mv-slider-cpt.php on line 64
+[06-Dec-2023 23:58:43 UTC] PHP Parse error:  syntax error, unexpected token ",", expecting "]" in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\post-types\class.mv-slider-cpt.php on line 64
+[06-Dec-2023 23:58:59 UTC] PHP Parse error:  syntax error, unexpected token ",", expecting "]" in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\post-types\class.mv-slider-cpt.php on line 64
+[07-Dec-2023 00:01:00 UTC] PHP Parse error:  syntax error, unexpected token ",", expecting "]" in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\post-types\class.mv-slider-cpt.php on line 64
+[07-Dec-2023 00:03:01 UTC] PHP Parse error:  syntax error, unexpected token ",", expecting "]" in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\post-types\class.mv-slider-cpt.php on line 64
+[07-Dec-2023 00:07:19 UTC] PHP Parse error:  syntax error, unexpected token "}" in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\post-types\class.mv-slider-cpt.php on line 75
+[07-Dec-2023 00:10:14 UTC] PHP Warning:  Undefined variable $link_text in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\views\mv-slider_metabox.php on line 6
+[07-Dec-2023 00:10:14 UTC] PHP Warning:  Undefined variable $link_text in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\views\mv-slider_metabox.php on line 6
+[07-Dec-2023 00:10:15 UTC] PHP Warning:  Undefined variable $link_text in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\views\mv-slider_metabox.php on line 6
+[07-Dec-2023 00:10:15 UTC] PHP Warning:  Undefined variable $link_text in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\views\mv-slider_metabox.php on line 6
+[07-Dec-2023 00:12:51 UTC] PHP Warning:  Undefined variable $link_text in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\views\mv-slider_metabox.php on line 6
+[07-Dec-2023 00:17:56 UTC] PHP Warning:  Undefined variable $link_text in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\views\mv-slider_metabox.php on line 6
+[07-Dec-2023 00:18:01 UTC] PHP Warning:  Undefined variable $link_text in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\views\mv-slider_metabox.php on line 6
+[07-Dec-2023 00:21:04 UTC] PHP Warning:  Undefined array key "mv_slider_link_text" in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\views\mv-slider_metabox.php on line 3
+[07-Dec-2023 00:21:04 UTC] PHP Warning:  Undefined variable $post_id in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\views\mv-slider_metabox.php on line 4
+[07-Dec-2023 00:21:04 UTC] PHP Warning:  Undefined array key "mv_slider_link_url" in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\views\mv-slider_metabox.php on line 7
+[07-Dec-2023 00:21:04 UTC] PHP Warning:  Undefined variable $post_id in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\views\mv-slider_metabox.php on line 8
+[07-Dec-2023 00:21:16 UTC] Link Text: 
+[07-Dec-2023 00:21:16 UTC] Link URL: 
+[07-Dec-2023 00:21:19 UTC] Link Text: 
+[07-Dec-2023 00:21:19 UTC] Link URL: 
+[07-Dec-2023 00:21:20 UTC] Link Text: 
+[07-Dec-2023 00:21:20 UTC] Link URL: 
+[07-Dec-2023 00:21:20 UTC] Link Text: 
+[07-Dec-2023 00:21:20 UTC] Link URL: 
