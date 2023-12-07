@@ -56,3 +56,77 @@ Stack trace:
 [07-Dec-2023 00:21:20 UTC] Link URL: 
 [07-Dec-2023 00:21:20 UTC] Link Text: 
 [07-Dec-2023 00:21:20 UTC] Link URL: 
+[07-Dec-2023 01:31:06 UTC] Link Text: 
+[07-Dec-2023 01:31:06 UTC] Link URL: 
+[07-Dec-2023 01:31:53 UTC] PHP Warning:  Undefined array key "posttype" in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\post-types\class.mv-slider-cpt.php on line 73
+[07-Dec-2023 01:31:53 UTC] Link Text: Slide 1
+[07-Dec-2023 01:31:53 UTC] Link URL: Slide 1
+[07-Dec-2023 01:32:01 UTC] Link Text: 
+[07-Dec-2023 01:32:01 UTC] Link URL: 
+[07-Dec-2023 01:32:01 UTC] Link Text: 
+[07-Dec-2023 01:32:01 UTC] Link URL: 
+[07-Dec-2023 01:32:02 UTC] Link Text: 
+[07-Dec-2023 01:32:02 UTC] Link URL: 
+[07-Dec-2023 01:32:11 UTC] PHP Warning:  Undefined array key "posttype" in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\post-types\class.mv-slider-cpt.php on line 73
+[07-Dec-2023 01:32:11 UTC] Link Text: Slide 2
+[07-Dec-2023 01:32:11 UTC] Link URL: Slide 2
+[07-Dec-2023 01:32:18 UTC] PHP Warning:  Undefined array key "posttype" in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\post-types\class.mv-slider-cpt.php on line 73
+[07-Dec-2023 01:32:18 UTC] Link Text: Slide 3
+[07-Dec-2023 01:32:18 UTC] Link URL: Slide 3
+[07-Dec-2023 01:32:25 UTC] PHP Warning:  Undefined array key "posttype" in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\post-types\class.mv-slider-cpt.php on line 73
+[07-Dec-2023 01:32:25 UTC] Link Text: Slide 4
+[07-Dec-2023 01:32:25 UTC] Link URL: Slide 4
+[07-Dec-2023 01:32:30 UTC] Link Text: Slide 1
+[07-Dec-2023 01:32:30 UTC] Link URL: Slide 1
+[07-Dec-2023 01:32:37 UTC] Link Text: Slide 2
+[07-Dec-2023 01:32:37 UTC] Link URL: Slide 2
+[07-Dec-2023 01:37:57 UTC] Link Text: Slide 1
+[07-Dec-2023 01:37:57 UTC] Link URL: Slide 1
+[07-Dec-2023 01:38:14 UTC] PHP Warning:  Undefined array key "posttype" in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\post-types\class.mv-slider-cpt.php on line 73
+[07-Dec-2023 01:38:14 UTC] Link Text: Slide 1
+[07-Dec-2023 01:38:14 UTC] Link URL: Slide 1
+[07-Dec-2023 01:38:19 UTC] Link Text: Slide 1
+[07-Dec-2023 01:38:19 UTC] Link URL: Slide 1
+[07-Dec-2023 01:38:19 UTC] Link Text: Slide 1
+[07-Dec-2023 01:38:19 UTC] Link URL: Slide 1
+[07-Dec-2023 01:38:35 UTC] PHP Warning:  Undefined array key "posttype" in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\post-types\class.mv-slider-cpt.php on line 73
+[07-Dec-2023 01:38:35 UTC] Link Text: Slide 1
+[07-Dec-2023 01:38:35 UTC] Link URL: Slide 1
+[07-Dec-2023 01:38:37 UTC] Link Text: Slide 1
+[07-Dec-2023 01:38:37 UTC] Link URL: Slide 1
+[07-Dec-2023 01:38:41 UTC] Link Text: Slide 1
+[07-Dec-2023 01:38:41 UTC] Link URL: Slide 1
+[07-Dec-2023 01:40:18 UTC] PHP Warning:  Undefined array key "posttype" in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\post-types\class.mv-slider-cpt.php on line 73
+[07-Dec-2023 01:40:19 UTC] Link Text: Slide 1
+[07-Dec-2023 01:40:19 UTC] Link URL: Slide 1
+[07-Dec-2023 01:40:20 UTC] Link Text: Slide 1
+[07-Dec-2023 01:40:20 UTC] Link URL: Slide 1
+[07-Dec-2023 01:41:12 UTC] PHP Warning:  Undefined array key "posttype" in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\post-types\class.mv-slider-cpt.php on line 73
+[07-Dec-2023 01:41:12 UTC] Link Text: Slide 1
+[07-Dec-2023 01:41:12 UTC] Link URL: Slide 1
+[07-Dec-2023 01:41:13 UTC] Link Text: Slide 1
+[07-Dec-2023 01:41:13 UTC] Link URL: Slide 1
+[07-Dec-2023 01:43:29 UTC] PHP Warning:  Undefined array key "posttype" in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\post-types\class.mv-slider-cpt.php on line 73
+[07-Dec-2023 01:43:30 UTC] Link Text: Slide 1
+[07-Dec-2023 01:43:30 UTC] Link URL: Slide 1
+[07-Dec-2023 01:43:31 UTC] Link Text: Slide 1
+[07-Dec-2023 01:43:31 UTC] Link URL: Slide 1
+[07-Dec-2023 01:45:52 UTC] PHP Warning:  Undefined array key "posttype" in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\post-types\class.mv-slider-cpt.php on line 73
+[07-Dec-2023 01:46:34 UTC] PHP Warning:  Undefined array key "posttype" in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\post-types\class.mv-slider-cpt.php on line 73
+[07-Dec-2023 01:47:47 UTC] PHP Warning:  Undefined array key "posttype" in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\post-types\class.mv-slider-cpt.php on line 73
+[07-Dec-2023 01:48:59 UTC] PHP Warning:  Undefined array key "posttype" in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\post-types\class.mv-slider-cpt.php on line 73
+[07-Dec-2023 01:49:22 UTC] PHP Warning:  Undefined array key "posttype" in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\post-types\class.mv-slider-cpt.php on line 73
+[07-Dec-2023 01:49:28 UTC] PHP Warning:  Undefined array key "posttype" in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\post-types\class.mv-slider-cpt.php on line 73
+[07-Dec-2023 01:49:35 UTC] PHP Warning:  Undefined array key "posttype" in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\post-types\class.mv-slider-cpt.php on line 73
+[07-Dec-2023 01:50:11 UTC] PHP Warning:  Undefined array key "posttype" in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\post-types\class.mv-slider-cpt.php on line 73
+[07-Dec-2023 01:50:24 UTC] PHP Warning:  Undefined array key "posttype" in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\post-types\class.mv-slider-cpt.php on line 73
+[07-Dec-2023 01:50:31 UTC] PHP Warning:  Undefined array key "posttype" in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\post-types\class.mv-slider-cpt.php on line 73
+[07-Dec-2023 01:50:36 UTC] PHP Warning:  Undefined array key "posttype" in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\post-types\class.mv-slider-cpt.php on line 73
+[07-Dec-2023 01:51:12 UTC] PHP Warning:  Undefined array key "posttype" in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\post-types\class.mv-slider-cpt.php on line 73
+[07-Dec-2023 01:51:29 UTC] PHP Warning:  Undefined array key "posttype" in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\post-types\class.mv-slider-cpt.php on line 73
+[07-Dec-2023 01:52:14 UTC] PHP Warning:  Undefined array key "posttype" in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\post-types\class.mv-slider-cpt.php on line 73
+[07-Dec-2023 01:53:06 UTC] PHP Warning:  Undefined array key "posttype" in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\post-types\class.mv-slider-cpt.php on line 73
+[07-Dec-2023 01:53:21 UTC] PHP Warning:  Undefined array key "posttype" in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\post-types\class.mv-slider-cpt.php on line 73
+[07-Dec-2023 01:53:38 UTC] PHP Warning:  Undefined array key "posttype" in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\post-types\class.mv-slider-cpt.php on line 73
+[07-Dec-2023 01:53:46 UTC] PHP Warning:  Undefined array key "posttype" in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\post-types\class.mv-slider-cpt.php on line 73
+[07-Dec-2023 01:53:51 UTC] PHP Warning:  Undefined array key "posttype" in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\post-types\class.mv-slider-cpt.php on line 73
