@@ -145,3 +145,20 @@ Stack trace:
 #5 {main}
   thrown in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-includes\class-wp-hook.php on line 324
 [07-Dec-2023 23:36:42 UTC] PHP Warning:  Undefined variable $rhis in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\post-types\class.mv-slider-cpt.php on line 16
+[08-Dec-2023 20:44:46 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class MV_Slider_Settings does not have a method "admin_init" in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\bnd\Local Sites\plugin-create\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(false, Array)
+#1 C:\Users\bnd\Local Sites\plugin-create\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\bnd\Local Sites\plugin-create\app\public\wp-admin\admin-ajax.php(45): do_action('admin_init')
+#3 {main}
+  thrown in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-includes\class-wp-hook.php on line 324
+[08-Dec-2023 20:46:47 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_settings_section(), 3 passed in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\class.mv-slider-settings.php on line 19 and at least 4 expected in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-admin\includes\template.php:1634
+Stack trace:
+#0 C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\class.mv-slider-settings.php(19): add_settings_section('mv_slider_main_...', 'How does it wor...', NULL)
+#1 C:\Users\bnd\Local Sites\plugin-create\app\public\wp-includes\class-wp-hook.php(324): MV_Slider_Settings->admin_init('')
+#2 C:\Users\bnd\Local Sites\plugin-create\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(false, Array)
+#3 C:\Users\bnd\Local Sites\plugin-create\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\Users\bnd\Local Sites\plugin-create\app\public\wp-admin\admin-ajax.php(45): do_action('admin_init')
+#5 {main}
+  thrown in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-admin\includes\template.php on line 1634
+[08-Dec-2023 20:48:48 UTC] PHP Parse error:  Unclosed '{' on line 38 in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\class.mv-slider-settings.php on line 45

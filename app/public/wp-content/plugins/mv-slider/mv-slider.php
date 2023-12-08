@@ -26,10 +26,13 @@ if (!class_exists('MV_Slider')) {
         {
             $this->define_constants();
 
-            add_action('admin_menu', array($this, 'add_menu') );
+            add_action('admin_menu', array($this, 'add_menu'));
 
-            require_once( MV_SLIDER_PATH . 'post-types/class.mv-slider-cpt.php');
+            require_once(MV_SLIDER_PATH . 'post-types/class.mv-slider-cpt.php');
             $MV_Slider_Post_Type = new MV_Slider_Post_Type();
+
+            require_once(MV_SLIDER_PATH . 'class.mv-slider-settings.php');
+            $MV_Slider_Settings = new MV_Slider_Settings();
         }
 
         public function define_constants()
@@ -54,7 +57,8 @@ if (!class_exists('MV_Slider')) {
             // Função de desinstalação, se necessário.
         }
 
-        public function add_menu(){
+        public function add_menu()
+        {
             add_menu_page(
                 'MV Slider Options',
                 'MV Slider',
@@ -83,13 +87,14 @@ if (!class_exists('MV_Slider')) {
                 null,
                 null
             );
-            
+
         }
 
-        public function mv_slider_settings_page(){
-            require( MV_SLIDER_PATH . 'views/settings-page.php' );
+        public function mv_slider_settings_page()
+        {
+            require(MV_SLIDER_PATH . 'views/settings-page.php');
         }
-    
+
     }
 }
 
