@@ -980,3 +980,5 @@ Stack trace:
 #5 C:\Users\bnd\Local Sites\plugin-create\app\public\index.php(17): require('C:\\Users\\bnd\\Lo...')
 #6 {main}
   thrown in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\mv-slider.php on line 33
+[09-Dec-2023 01:27:57 UTC] PHP Parse error:  Unclosed '{' on line 98 in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\class.mv-slider-settings.php on line 112
+[09-Dec-2023 01:29:58 UTC] PHP Parse error:  Unclosed '{' on line 98 in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\class.mv-slider-settings.php on line 115
