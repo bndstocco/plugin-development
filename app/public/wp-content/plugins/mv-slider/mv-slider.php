@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Plugin Name: MV Slider
  * Plugin URI: https://br.wordpress.org/mv-slider
@@ -18,8 +17,12 @@ if (!defined('ABSPATH')) {
     exit;
 }
 
-if (!class_exists('MV_Slider')) {
+if (!class_exists('MV_Slider_Settings')) {
+    // Include the file that contains the MV_Slider_Settings class
+    require_once(plugin_dir_path(__FILE__) . 'class.mv-slider-settings.php');
+}
 
+if (!class_exists('MV_Slider')) {
     class MV_Slider
     {
         function __construct()
@@ -31,8 +34,10 @@ if (!class_exists('MV_Slider')) {
             require_once(MV_SLIDER_PATH . 'post-types/class.mv-slider-cpt.php');
             $MV_Slider_Post_Type = new MV_Slider_Post_Type();
 
-            require_once(MV_SLIDER_PATH . 'class.mv-slider-settings.php');
-            $MV_Slider_Settings = new MV_Slider_Settings();
+            // Ensure that MV_Slider_Settings is loaded before creating an instance
+            if (class_exists('MV_Slider_Settings')) {
+                $MV_Slider_Settings = new MV_Slider_Settings();
+            }
         }
 
         public function define_constants()
@@ -41,6 +46,7 @@ if (!class_exists('MV_Slider')) {
             define('MV_SLIDER_URL', plugin_dir_url(__FILE__));
             define('MV_SLIDER_VERSION', '1.0.0');
         }
+
         public static function activate()
         {
             update_option('rewrite_rules', '');
@@ -65,7 +71,7 @@ if (!class_exists('MV_Slider')) {
                 'manage_options',
                 'mv_slider_admin',
                 array($this, 'mv_slider_settings_page'),
-                'dashicons-images-alt2',
+                'dashicons-images-alt2'
             );
 
             add_submenu_page(
@@ -87,14 +93,12 @@ if (!class_exists('MV_Slider')) {
                 null,
                 null
             );
-
         }
 
         public function mv_slider_settings_page()
         {
             require(MV_SLIDER_PATH . 'views/settings-page.php');
         }
-
     }
 }
 
@@ -105,3 +109,4 @@ if (class_exists('MV_Slider')) {
 
     $mv_slider = new MV_Slider();
 }
+?>
