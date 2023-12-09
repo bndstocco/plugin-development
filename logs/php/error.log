@@ -985,3 +985,7 @@ Stack trace:
 [09-Dec-2023 01:37:19 UTC] PHP Parse error:  syntax error, unexpected token ")" in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\class.mv-slider-settings.php on line 111
 [09-Dec-2023 01:41:21 UTC] PHP Parse error:  syntax error, unexpected token "endforeach" in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\class.mv-slider-settings.php on line 118
 [09-Dec-2023 01:43:22 UTC] PHP Parse error:  syntax error, unexpected token "?" in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\class.mv-slider-settings.php on line 122
+[09-Dec-2023 01:54:52 UTC] PHP Parse error:  Unclosed '{' on line 4 in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\class.mv-slider-settings.php on line 151
+[09-Dec-2023 01:57:04 UTC] PHP Parse error:  Unclosed '{' on line 4 in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\class.mv-slider-settings.php on line 152
+[09-Dec-2023 01:57:05 UTC] PHP Parse error:  Unclosed '{' on line 4 in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\class.mv-slider-settings.php on line 152
+[09-Dec-2023 01:58:47 UTC] PHP Parse error:  Unmatched '}' in C:\Users\bnd\Local Sites\plugin-create\app\public\wp-content\plugins\mv-slider\class.mv-slider-settings.php on line 151

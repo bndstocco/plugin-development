@@ -17,7 +17,7 @@ if (is_admin()) {
             {
                 include_once(ABSPATH . 'wp-admin/includes/plugin.php'); // Certifique-se de incluir o arquivo que contém register_settings
 
-                register_setting('mv_slider_group', 'mv_slider_options');
+                register_setting('mv_slider_group', 'mv_slider_options', array($this, 'mv_slider_validate'));
                 add_settings_section(
                     'mv_slider_main_section',
                     'How does it work?',
@@ -128,13 +128,23 @@ if (is_admin()) {
 
                 <?php echo esc_html(ucfirst($item)); ?>
               </option>
-
+    
             </select>
+            
 
                 <?php
+            }
+            
+            public function mv_slider_validate($input){
+                $new_input = array();
+                foreach ($input as $key => $value) {
+                    $new_input[$key] = sanitize_text_field ($value);
+               }
+                return $new_input;
+
             }
 
         }
 
     }
-}
+  }
